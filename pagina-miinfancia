@@ -1,0 +1,37 @@
+<html>
+	<head>	<title>Mi infancia</title></head>
+
+
+
+	<body>
+		
+
+		
+			<h1>Mi infancia</h1>
+
+<img src="./img/acaponeta.jpg" alt="Acaponeta,Nay." title="Acaponeta,Nay"><br>
+<p>
+Naci un 17 de julio de 1996 en una pequeña ciudad de Nayarit llamada Acaponeta y aunque naci alli pase los primeros 3 años de mi vida en un pequeño rancho llamado el recodo 
+en la casa de mis abuelos paternos junto con mis padres y mi hermana mayor la vida alli es muy tranquila y aunque no recuerdo mucho el tiempo que vivi alli puedo decir que entre lo mas relevante que mis padres me recuerdan
+y que me dejo algo que siempre voy a tener conmigo es un accidente que tuve en el que yo y un primo al jugar con una botella de vidrio de alguna manera al caerse de las manos de mi primo 
+se quebro y uno de los vidrios me corto la nariz lo cual me dejo una sicatriz en el poro nasal izquierdo que recuerda todo el tiempo tener cuidado con las cosas filosas o que se pueden romper.
+</p>
+<p>
+Un acontecimiento que cambio en gran parte lo que seria el rumbo que tendria mi vida fue la partida de mi abuelo al cielo por culpa de una enfermedad y aunque yo era muy pequeño y no recuerdo esos dia 
+pero fue un detonante que hizo que mis padres quisieran dejar el rancho para buscar un mejor lugar en donde vivir alejados de malos recuerdos y poder superarlos, asifue como mis padres desidieron que seria
+una buena idea ir a vivir a Los Mochis Sin. y aprovechar que en ese lugar se encontraban viviendo dos de las hermanas de mi papá y con las ganas que tenian de querer cambiar los planes se hisieron realidad 
+y emprendimos un viaje hacia esa hermosa ciudad que se comvertiria en nuestro nuevo hogar.<br>
+
+<img src="./img/bienvenidos.jpg" alt="Señal de transito que indica que se a llegado a los mochis sinaloa." title="Bienvenidos a los mochis"><br>
+
+
+</p>
+			<a href="./pag1.html">Volver al menu principal</a>
+		
+
+		
+	</body>
+
+
+
+</html>
