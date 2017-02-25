@@ -1,0 +1,30 @@
+<html>
+	<head>	<title>Galeria de dibuujos</title></head>
+
+
+	<body>
+		<h1 align="center"> Galeria de dibujos</h1>
+
+
+		
+
+<a href="./pag6.html" ><img src="./img/dibujo.jpg" alt="Tortuga" title="Tortuga">
+<a href="./pag6.html" ><img src="./img/dibujo1.jpg" alt="Telepata"  title="Telepata">
+<a href="./pag6.html" ><img src="./img/dibujo2.jpg" alt="MonkeyD.Luffy"  title="MonkeyD.Luffy">
+<a href="./pag6.html" ><img src="./img/dibujo4.jpg" alt="Vampiro"  title="Vampiro"><br>
+<a href="./pag6.html" ><img src="./img/dibujo3.jpg" alt="Son Gohan"  title="Son Gohan">
+
+<a href="./pag6.html" ><img src="./img/dibujo5.jpg" alt="Goku,Black Goku"  title="Goku,Black Goku">
+<a href="./pag6.html" ><img src="./img/dibujo6.jpg" alt="Incursio"  title="Incursio">
+<a href="./pag6.html" ><img src="./img/dibujo7.jpg" alt="Link"  title="Link">		
+<a href="./pag6.html" ><img src="./img/dibujo8.jpg" alt="Mario Retro"  title="Mario Retro">
+
+		
+
+
+		<a href="./pag6.html" >Regresar</a>
+	</body>
+
+
+
+</html>
