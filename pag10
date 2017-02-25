@@ -1,0 +1,24 @@
+<html>
+	<head>	<title>Familia</title></head>
+<a href="./pag1.html" ><img src="./img/logo2.jpg" alt="Logo" ></a> <a href="./pag2.html" >Mi Infancia</a>&#47 <a href="./pag5.html" >Mi adolescencia</a>
+                       &#47 <a href="./pag3.html" >Mi presente</a> &#47 <a href="./pag4.html" >Lo que espero de mi futuro</a>
+
+	<body>
+
+        <h1>Mi Familia</h1>		
+<p>
+<img src="./img/familia.jpg" alt="una parte de mi familia paterna" title="Familia paterna"><br>
+</p>
+
+			
+
+
+		
+
+
+		
+	</body>
+
+
+
+</html>
