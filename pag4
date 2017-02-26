@@ -1,0 +1,31 @@
+<html>
+	<head>	<title>Mi Futuro</title></head>
+<a href="./pag1.html" ><img src="./img/logo2.jpg" alt="Logo" ></a><a href="./pag2.html" >Mi infancia</a> &#47<a href="./pag5.html" >Mi Adolescencia</a>
+                      &#47 <a href="./pag3.html" >Mi presente</a> &#47<a href="./pag10.html" >Familia</a>
+
+	<body>
+		
+
+		
+			<h1>Lo que espero de mi futuro</h1>
+
+
+<p>
+  El pensar en que sera de nuestra vida en el futuro es esencial en la vida de todos ya que nos ayuda a fijar metas para poder lograr nuestros sueños e intentar vivir estables y hacer lo que siempre quisimos hacer.
+<br><img src="./img/futuro.jpg" alt="Ver hacia el futuro" title="Ver hacia el futuro"><br>
+</p>
+<p>
+Para empezar yo me veo en mi futuro trabajando en algo que me gusta como por ejemplo trabajar en una empresa en la que pueda llegar a programar algún videojuego  y diseñarlo ese es uno de los sueños que tengo desde que empecé la carrera de ingeniería informática y espero poder lograrlo. También una de las cosas que espero es poder inventar algo que ayude a mejorar la vida de las personas pero no en forma de hacer a la humanidad mas floja sino de hacer algo que enserio ayude a la humanidad para resolver algún problema o algo que ayude a le gente a aprender algo que normalmente nunca intentaría hacer.
+</p>
+<P>Algo que me gustaría hacer en mi futuro es poder pintar grandes paisajes de diferentes partes del mundo poder darme un tiempo en mi vida para realizar ese viaje en el que pueda realizar ese sueño que e tenido desde hace un par de años y una ves que lo termine poder juntar todas las pinturas y mostrárselo a todo el mundo con la esperanza de que lo que haga pueda inspirar a otras personas a querer lograr sus metas.
+<br><img src="./img/pintor.jpg" alt="como me veo en un futuro" title="como me veo en un futuro"><br>
+</p>
+			
+
+
+	<a href="./pag1.html" >Regresar</a>	
+	</body>
+
+
+
+</html>
