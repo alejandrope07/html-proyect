@@ -6,21 +6,23 @@
 
 	<body>
 
+
 		
 		
-                        <a href="./pag1.html" ><img src="./img/logo2.jpg" alt="Logo" ></a>
-			<h1 align="center">Jos&#233 Alejandro Peña Diaz</h1><hr/>
-                        <p><h2>La historia de mi vida </h2> </p>
+                       <a href="./pag1.html" ><img src="./img/logo2.jpg" alt="Logo" href="./logo2.ico"></a>
+			
+<h1 align="center">Jos&#233 Alejandro Peña Diaz</h1>    <p  align="right">Contactame en : alexwiper071@outlook.com </p><hr/>
+                        <p><h2>La historia de mi vida </h2> </p>   
 
 			
-			<a href="./pag2.html" >Mi infancia</a><br>
-                        <a href="./pag5.html" >Mi Adolescencia</a><br>
-			<a href="./pag3.html" >Mi presente</a><br>
-                        <a href="./pag4.html" >Lo que espero de mi futuro</a><br>
-                        <a href="./pag10.html" >Familia</a><br>
+			<a href="./pag2.html" >Mi infancia</a><br/>
+                        <a href="./pag5.html" >Mi Adolescencia</a><br/>
+			<a href="./pag3.html" >Mi presente</a><br/>
+                        <a href="./pag4.html" >Lo que espero de mi futuro</a><br/>
+                        <a href="./pag10.html" >Familia</a><br/>
 	
 
-
+<hr/>
 
 
 		<p>&#169 ITLM Productions</p>
