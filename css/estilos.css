@@ -1,0 +1,16 @@
+body{
+background:#DCDCDC;
+}
+.uno{color:blue;
+margin-left:100px;}
+.dos{background-image:url("./img/galeria.jpg");
+background-attachment:fixed}
+.tres{color:#3574E8;}
+.margen{
+background:#c0c0c0;
+margin-left:100px;}
+.marcof{
+border-style:solid;
+border-width:10px;
+border-color:silver;}
+
