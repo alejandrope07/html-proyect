@@ -1,0 +1,190 @@
+<html>
+<head><title>encuesta</title>
+<script>
+	function resultado() {
+			var uno = document.getElementsByName("uno");
+			var res = 0
+			for (var i = 0; i < uno.length; i++){ 
+          		if(uno[i].checked == true && uno[i].value == "nay"){
+          			res++;
+          }
+      }
+			var dos = document.getElementsByName("dos");
+			for (var i = 0; i < dos.length; i++){ 
+          		if(dos[i].checked == true && dos[i].value == "fut"){
+          			res++;
+          }
+         
+
+	}
+			var tres = document.getElementsByName("tres")
+				for (var i = 0; i < tres.length; i++){ 
+          		if(tres[i].checked == true && tres[i].value == "piramide"){
+          			res++;
+          }
+             }
+             var cuatro = document.getElementsByName("cuatro")
+             		for (var i = 0; i < cuatro.length; i++){ 
+          		if(cuatro[i].checked == true && cuatro[i].value == "ingles"){
+          			res++;
+          }
+             }
+              var cinco = document.getElementsByName("cinco")
+             		for (var i = 0; i < cinco.length; i++){ 
+          		if(cinco[i].checked == true && cinco[i].value == "dofus"){
+          			res++;
+          }
+             }
+                  var seis = document.getElementsByName("seis")
+             		for (var i = 0; i < seis.length; i++){ 
+          		if(seis[i].checked == true && seis[i].value == "futuro"){
+          			res++;
+          }
+             }
+
+                var siete = document.getElementsByName("siete")
+             		for (var i = 0; i < siete.length; i++){ 
+          		if(siete[i].checked == true && siete[i].value == "frijoles"){
+          			res++;
+          }
+             }
+                var ocho = document.getElementsByName("ocho")
+             		for (var i = 0; i < ocho.length; i++){ 
+          		if(ocho[i].checked == true && ocho[i].value == "dibujar"){
+          			res++;
+          }
+             }
+
+
+              	var nueve = document.getElementsByName("nueve")
+             		for (var i = 0; i < nueve.length; i++){ 
+          		if(nueve[i].checked == true && nueve[i].value == "presumidas"){
+          			res++;
+          }
+             }
+                var diez = document.getElementsByName("diez")
+             		for (var i = 0; i < diez.length; i++){ 
+          		if(diez[i].checked == true && diez[i].value == "ij"){
+          			res++;
+          }
+             }
+
+
+             		if (res <= 3) {
+             			alert("no leiste nada del sitio");
+             		}
+             		else if (res <=6){
+             			alert("recuardas algunas cosas sobre mi");
+             		}
+             		else if (res <=9) {
+             			alert("sabes mucho sobre mi :´)");
+             		}
+             		else if (res = 10){
+             			alert("sabes absolutamente todo sobre mi amigo")
+             		}
+
+
+
+     
+
+
+
+
+
+
+	}
+
+
+
+</script>
+<link rel="stylesheet" type="text/css" href="./css/estilos.css" />
+
+</head>
+
+<body>
+<div id="encuesta">
+<h1>Encuesta</h1>
+<h2>esta encuesta es con el propósito de saber que tanto aprendió el lector sobre el autor del sitio web</h2>
+<ol>
+<li><p>¿Cuál es mi lugar de nacimiento?</p>
+<input type="radio" name="uno" value="sin">Los Mochis,Sinaloa<br>
+<input type="radio" name="uno" value="nay">Acaponeta,Nayarit<br>
+<input type="radio" name="uno" value="sin2" checked>culiacan,Sinaloa<br>
+</li>
+<li><p>¿qué profesión quería emprender cuando era un niño?</p>
+<input type="radio" name="dos" value="fut">Futbolista<br>
+<input type="radio" name="dos" value="pintor">pintor<br>
+<input type="radio" name="dos" value="arquitecto">arquitecto<br>
+<input type="radio" name="dos" value="youtuber" checked>youtuber<br>
+
+<li>
+<p>¿De que habilidad presumía en secundaria?</p>
+<input type="radio" name="tres" value="pollos">poder conocer el sexo de los pollos bebes<br>
+<input type="radio" name="tres" value="volar">volar por los cielos <br>
+<input type="radio" name="tres" value="piramide">hacer una piramide de naipes<br>
+<input type="radio" name="tres" value="gordito" checked>poder levantar en mis hombros al gordito del salón<br>	
+</li>
+
+<li>
+<p>¿cual fue la materia de la cual reprobé un parcial por primera vez?</p>
+<input type="radio" name="cuatro" value="matematicas">matematicas<br>
+<input type="radio" name="cuatro" value="geografia">geografia<br>
+<input type="radio" name="cuatro" value="ingles">ingles<br>
+<input type="radio" name="cuatro" value="español" checked>español<br>	
+</li>
+
+<li>
+<p>¿qué videojuego me hizo cambiar de idea para elegir que quería estudiar?</p>
+<input type="radio" name="cinco" value="tibia">tibia<br>
+<input type="radio" name="cinco" value="dofus">dofus<br>
+<input type="radio" name="cinco" value="mortal">mortal kombat<br>
+<input type="radio" name="cinco" value="dante" checked>dante´s inferno<br>	
+</li>
+
+<li>
+<p>¿cual es mi película favorita?</p>
+<input type="radio" name="seis" value="guardianes">guardianes de la galaxia<br>
+<input type="radio" name="seis" value="xmen">xmen dias del futuro pasado<br>
+<input type="radio" name="seis" value="rapido">rapido y furioso<br>
+<input type="radio" name="seis" value="futuro" checked>volver al futuro<br>	
+</li>
+
+<li>
+<p>¿cual es mi comida favorita?</p>
+<input type="radio" name="siete" value="frijoles">frijoles con arroz<br>
+<input type="radio" name="siete" value="pizza">pizza<br>
+<input type="radio" name="siete" value="caviar">caviar<br>
+<input type="radio" name="siete" value="torta" checked>torta tec<br>	
+</li>
+
+<li>
+<p>¿cual es la actividad que mas disfruto hacer?</p>
+<input type="radio" name="ocho" value="jf">jugar futbol<br>
+<input type="radio" name="ocho" value="dibujar">dibujar<br>
+<input type="radio" name="ocho" value="tejer">tejer bufandas<br>
+<input type="radio" name="ocho" value="piedras" checked>coleccionar piedras<br>	
+</li>
+
+<li>
+<p>¿que es lo que mas me molesta en esta vida?</p>
+<input type="radio" name="nueve" value="minecraft">minecraft<br>
+<input type="radio" name="nueve" value="donald">donald trump<br>
+<input type="radio" name="nueve" value="arañas">las arañas<br>
+<input type="radio" name="nueve" value="presumidas" checked>las personas presumidas<br>	
+</li>
+<li>
+<p>¿cuales son los países que me gustaría visitar en el futuro?</p>
+<input type="radio" name="diez" value="cf">canada y francia<br>
+<input type="radio" name="diez" value="ij">inglaterra y japon<br>
+<input type="radio" name="diez" value="jf">japon y francia<br>
+<input type="radio" name="diez" value="bc" checked>brasil y colombia<br>	
+</li>
+
+</ol>
+
+<button id="boton" type="button" onclick="resultado();"> saber que tanto conosco al autor</button>
+</div>
+</body>
+
+
+</html>
