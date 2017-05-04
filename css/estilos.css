@@ -182,3 +182,34 @@ text-decoration:none;
 text-align: center;
 }
 
+#encuesta{
+font-size:16px;
+tex-align:justify;
+font-family: Times New Roman;
+background:white;
+margin-left:250px;
+margin-right:250px;
+position:relative;
+display:inline-block;
+height:auto;
+width:auto;}
+
+#encuesta h1{
+background:#c94c4c;
+color:#eaece5;
+padding: 10px 30px 10px 30px;
+}
+#encuesta h2{
+margin-left:20px;
+margin-right:20px;
+}
+
+#encuesta ol{
+margin-left:20px;
+margin-right:20px;}
+
+#boton{
+margin:30px;
+
+
+
