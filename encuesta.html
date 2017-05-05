@@ -83,17 +83,31 @@
              			alert("sabes absolutamente todo sobre mi amigo")
              		}
 
-
-
-     
-
-
-
-
-
-
 	}
-
+			var ocultar = 1;
+    function t() {
+    	
+    if(ocultar == 1) {
+    N.style.top = "1400px";
+    N.style.left = "600px";
+    }
+    if(ocultar == 2) {
+    N.style.top = "1300px";
+    N.style.left = "300px";
+    }
+    if(ocultar == 3) {
+    N.style.top = "1530px";
+    N.style.left = "250px";
+    }
+    if(ocultar == 4) {
+    N.style.top = "1230px";
+    N.style.left = "850px";
+    }
+    ocultar = ocultar + 1;
+    if(ocultar == 5) {
+    ocultar = 1;
+    }
+    }
 
 
 </script>
@@ -104,53 +118,53 @@
 <body>
 <div id="encuesta">
 <h1>Encuesta</h1>
-<h2>esta encuesta es con el propósito de saber que tanto aprendió el lector sobre el autor del sitio web</h2>
+<h2>esta encuesta es con el prop&#243;sito de saber que tanto aprendi&#243; el lector sobre el autor del sitio web</h2>
 <ol>
-<li><p>¿Cuál es mi lugar de nacimiento?</p>
+<li><p>&#191;Cu&#225;l es mi lugar de nacimiento?</p>
 <input type="radio" name="uno" value="sin">Los Mochis,Sinaloa<br>
 <input type="radio" name="uno" value="nay">Acaponeta,Nayarit<br>
 <input type="radio" name="uno" value="sin2" checked>culiacan,Sinaloa<br>
 </li>
-<li><p>¿qué profesión quería emprender cuando era un niño?</p>
+<li><p>&#191;qu&#233; profesi&#243;n quer&#237;a emprender cuando era un ni&ntilde;o?</p>
 <input type="radio" name="dos" value="fut">Futbolista<br>
 <input type="radio" name="dos" value="pintor">pintor<br>
 <input type="radio" name="dos" value="arquitecto">arquitecto<br>
 <input type="radio" name="dos" value="youtuber" checked>youtuber<br>
 
 <li>
-<p>¿De que habilidad presumía en secundaria?</p>
+<p>&#191;De qu&#233; habilidad presum&#237;a en secundaria?</p>
 <input type="radio" name="tres" value="pollos">poder conocer el sexo de los pollos bebes<br>
 <input type="radio" name="tres" value="volar">volar por los cielos <br>
 <input type="radio" name="tres" value="piramide">hacer una piramide de naipes<br>
-<input type="radio" name="tres" value="gordito" checked>poder levantar en mis hombros al gordito del salón<br>	
+<input type="radio" name="tres" value="gordito" checked>poder levantar en mis hombros al gordito del sal&#243;n<br>	
 </li>
 
 <li>
-<p>¿cual fue la materia de la cual reprobé un parcial por primera vez?</p>
+<p>&#191;cu&#225;l fue la materia de la cual reprob&#233; un parcial por primera vez?</p>
 <input type="radio" name="cuatro" value="matematicas">matematicas<br>
-<input type="radio" name="cuatro" value="geografia">geografia<br>
+<input type="radio" name="cuatro" value="geografia">geograf&#237;a<br>
 <input type="radio" name="cuatro" value="ingles">ingles<br>
-<input type="radio" name="cuatro" value="español" checked>español<br>	
+<input type="radio" name="cuatro" value="español" checked>espa&ntilde;ol<br>	
 </li>
 
 <li>
-<p>¿qué videojuego me hizo cambiar de idea para elegir que quería estudiar?</p>
+<p>&#191;qu&#233; videojuego me hizo cambiar de idea para elegir que quer&#237;a estudiar?</p>
 <input type="radio" name="cinco" value="tibia">tibia<br>
 <input type="radio" name="cinco" value="dofus">dofus<br>
 <input type="radio" name="cinco" value="mortal">mortal kombat<br>
-<input type="radio" name="cinco" value="dante" checked>dante´s inferno<br>	
+<input type="radio" name="cinco" value="dante" checked>dantes inferno<br>	
 </li>
 
 <li>
-<p>¿cual es mi película favorita?</p>
+<p>&#191;cu&#225;l es mi pel&#237;cula favorita?</p>
 <input type="radio" name="seis" value="guardianes">guardianes de la galaxia<br>
-<input type="radio" name="seis" value="xmen">xmen dias del futuro pasado<br>
+<input type="radio" name="seis" value="xmen">x men d&#237;as del futuro pasado<br>
 <input type="radio" name="seis" value="rapido">rapido y furioso<br>
 <input type="radio" name="seis" value="futuro" checked>volver al futuro<br>	
 </li>
 
 <li>
-<p>¿cual es mi comida favorita?</p>
+<p>&#191;cu&#225;l es mi comida favorita?</p>
 <input type="radio" name="siete" value="frijoles">frijoles con arroz<br>
 <input type="radio" name="siete" value="pizza">pizza<br>
 <input type="radio" name="siete" value="caviar">caviar<br>
@@ -158,7 +172,7 @@
 </li>
 
 <li>
-<p>¿cual es la actividad que mas disfruto hacer?</p>
+<p>&#191;cu&#225;l es la actividad que mas disfruto hacer?</p>
 <input type="radio" name="ocho" value="jf">jugar futbol<br>
 <input type="radio" name="ocho" value="dibujar">dibujar<br>
 <input type="radio" name="ocho" value="tejer">tejer bufandas<br>
@@ -166,23 +180,32 @@
 </li>
 
 <li>
-<p>¿que es lo que mas me molesta en esta vida?</p>
+<p>&#191;qu&#233; es lo que mas me molesta en esta vida?</p>
 <input type="radio" name="nueve" value="minecraft">minecraft<br>
 <input type="radio" name="nueve" value="donald">donald trump<br>
-<input type="radio" name="nueve" value="arañas">las arañas<br>
+<input type="radio" name="nueve" value="arañas">las ara&ntilde;as<br>
 <input type="radio" name="nueve" value="presumidas" checked>las personas presumidas<br>	
 </li>
 <li>
-<p>¿cuales son los países que me gustaría visitar en el futuro?</p>
-<input type="radio" name="diez" value="cf">canada y francia<br>
-<input type="radio" name="diez" value="ij">inglaterra y japon<br>
-<input type="radio" name="diez" value="jf">japon y francia<br>
+<p>&#191;cu&#225;les son los pa&#237;ses que me gustar&#237;a visitar en el futuro?</p>
+<input type="radio" name="diez" value="cf">canad&#225; y francia<br>
+<input type="radio" name="diez" value="ij">inglaterra y jap&#243;n<br>
+<input type="radio" name="diez" value="jf">jap&#243;n y francia<br>
 <input type="radio" name="diez" value="bc" checked>brasil y colombia<br>	
 </li>
 
 </ol>
+   <div id="N" class="ocult">
+      <form>
+        <input type="button" value="reportar al autor por patetico" onmouseover="t();">
+      </form>
+    </div>
+    <div>
+      <form>
+        <button id="boton" type="button" onclick="resultado();"> saber que tanto conosco al autor</button> 
+      </form>
+    </div>
 
-<button id="boton" type="button" onclick="resultado();"> saber que tanto conosco al autor</button>
 </div>
 </body>
 
