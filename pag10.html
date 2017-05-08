@@ -1,44 +1,112 @@
 <html>
 	<head>	<title>Familia</title>
-<link rel="stylesheet"
-type="text/css"
-href="./css/estilos.css"></head>
-                        <div class="bar">
-                        <ul class="lista">
-<li class="lista2"><a href="./pag1.html" class="barra">Inicio</a> </li>
-<li class="lista2"><a href="./pag2.html" class="barra">Mi Infancia</a></li>
-<li class="lista2"><a href="./pag5.html" class="barra">Mi adolescencia</a></li>
-<li class="lista2"><a href="./pag3.html" class="barra">Mi presente</a> </li>
-<li class="lista2"><a href="./pag4.html" class="barra">Lo que espero de mi futuro</a></li>
-</ul><hr/></div>
+<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+
+<script type="text/javascript">
+		var suma = 1;
+	function ver() {
+		if (suma == 1) {
+		document.getElementById("citas").style.display = "block";
+		suma = suma + 1;}
+			else {
+		document.getElementById("citas").style.display = "none";
+		suma = 1;
+		}
+ }
+  	function ver2() {
+		if (suma == 1) {
+		document.getElementById("cita2").style.display = "block";
+		suma = suma + 1;}
+			else {
+		document.getElementById("cita2").style.display = "none";
+		suma = 1;
+		}
+ }
+ 	function ver3() {
+		if (suma == 1) {
+		document.getElementById("cita3").style.display = "block";
+		suma = suma + 1;}
+			else {
+		document.getElementById("cita3").style.display = "none";
+		suma = 1;
+		}
+ }
+
+
+
+
+</script>
+
+
+
+</head>
+
 	<body>
+                        <div class="bar" >
+                        <ul class="lista">
+                        <li class="lista2"><a href="./pag1.html" class="barra">Inicio</a></li>
+                        <li class="lista2"><a href="./pag2.html" class="barra">Mi infancia</a></li>
+                        <li class="lista2"><a href="./pag5.html" class="barra">Mi adolescencia</a> </li>
+                        <li class="lista2"><a href="#" class="barra">Mi presente</a>
+                        			<ul class="lista3"> 
+                           				<li class="lista3"><a href="./pag6.html" class="barra">Lo que me gusta hacer</a></li>
+                           				<li class="lista3"><a href="./pag7.html" class="barra">Mi vida Actualmente</a></li>
+                           				<li class="lista3"><a href="./pag8.html" class="barra">Algunas recomendaciones</a></li>
+                				
+                				</ul>
+                        </li>
+                        <li class="lista2"><a href="./pag4.html" class="barra">Lo que espero de mi futuro</a></li>
+                        <li class="lista2"><a href="./pag10.html" class="barra">Familia</a></li>
+                        <li class="lista2"><a href="./encuesta.html" class="barra">Encuesta</a></li>
+                        </ul> <hr/>
+ 					</div>
+
+
+
+
 <div class="margen">
         <h1 align="center" class="sadow">Mi Familia</h1>	
 <div class="margen2"	
-<p>
-Primero que nada mi familia sobre todo siempre hemos sido mi madre, mi padre, mi hermana y yo son las &#250;nicas personas que puedo considerar familia y a pesar de que no tenemos muchas fotos donde salimos juntos siempre pasamos buenos momentos juntos y lo que me gusta de la siguiente foto es de que mi hermana parese que se puso donitas bimbo en la cara creo que esa fue la raz&#243n por la que la puse adem&#225s de que fue la &#250nica que encontr&#233 pero el no tener fotos no significa que no seamos una familia muy unida.
-<br><div class="imgdec" align="center">
-<a href="./imagenes/fam.html"><img src="./img/fam.jpg" alt="mi familia" title="Mi Familia"></a>
-<cite>Mis padres, mi hermana y yo en mi primera comunion</cite>
-</div>
+	
+
+	<p>
+Primero que nada mi familia sobre todo siempre hemos sido mi madre, mi padre, mi hermana y yo son las &#250;nicas personas que puedo considerar familia y a pesar de que no tenemos muchas fotos donde salimos juntos siempre pasamos buenos momentos juntos y lo que me gusta de la siguiente foto es de que mi hermana parese que se puso donitas bimbo en la cara creo que esa fue la raz&#243;n por la que la puse adem&#225;s de que fue la &#250;nica que encontr&#233; pero el no tener fotos no significa que no seamos una familia muy unida.
+<br>				
+			<div class="imgdec" align="center">
+				<a href="./imagenes/fam.html"><img src="./img/fam.jpg" alt="mi familia" title="Mi Familia"></a>
+					<input type="image" src="./img/flecha.png"  onclick="ver();" />
+						<div id="citas">
+					<cite>Mis padres, mi hermana y yo en mi primera comunion</cite>
+
+					</div>
+			</div>
 </p>
 <p>
-En cuanto al resto de mi familia ya sea materna o paterna las cosas son un poco mas tranquilas durante el año solo tenemos contacto con una t&#237a que vive a tres casas de la nuestra pero a veces no llegamos a reunir en fechas navideñas en estos tiempo ya casi nadie se re&#250ne en la casa de los abuelos como antes por ejemplo recuerdo que cuando era mas pequeño e &#237bamos de vacaciones con mi abuela a Nayarit su casa se llenaba no encontr&#225bamos donde dormir esas cosas eran divertidas y alegraban mucho a mi abuela el ver a todos sus hijos y nietos juntos en un lugar pero ahora es diferente normalmente cada quien va en fechas diferentes a visitarla o simplemente no van lo cual me pone triste el que no seamos una familia tan unida porque ahora si todos se juntan mis t&#237as solo se ponen a hablar sobre que van  a hacer con los terrenos que tiene mi abuela cuando muera y sinceramente me molesta mucho que se pongan a pensar en esas cosas en ves de disfrutar a mi abuela lo mas que puedan se preocupan por lo que pasara cuando ella no este simplemente no las entiendo que se preocupen por cosas materiales espero que con el tiempo cambien eso y podamos tener grandes reuniones como las de cuando era niño.
-<br/><div class="imgdec" align="center">
-<a href="./imagenes/familiareunida.html"><img src="./img/familiareunida.jpg" alt="Reunion de la familia cuando era pequeño" title="Reunion de la familia cuando era pequeño"></a>
-<cite>La familia reunida en vacaciones</cite>
-</div>
+En cuanto al resto de mi familia ya sea materna o paterna las cosas son un poco mas tranquilas durante el año solo tenemos contacto con una t&#237;a que vive a tres casas de la nuestra pero a veces no llegamos a reunir en fechas navideñas en estos tiempo ya casi nadie se re&#250;ne en la casa de los abuelos como antes por ejemplo recuerdo que cuando era mas pequeño e &#237;bamos de vacaciones con mi abuela a Nayarit su casa se llenaba no encontr&#225;bamos donde dormir esas cosas eran divertidas y alegraban mucho a mi abuela el ver a todos sus hijos y nietos juntos en un lugar pero ahora es diferente normalmente cada quien va en fechas diferentes a visitarla o simplemente no van lo cual me pone triste el que no seamos una familia tan unida porque ahora si todos se juntan mis t&#237;as solo se ponen a hablar sobre que van  a hacer con los terrenos que tiene mi abuela cuando muera y sinceramente me molesta mucho que se pongan a pensar en esas cosas en ves de disfrutar a mi abuela lo mas que puedan se preocupan por lo que pasara cuando ella no este simplemente no las entiendo que se preocupen por cosas materiales espero que con el tiempo cambien eso y podamos tener grandes reuniones como las de cuando era niño.
+<br/>
+				<div class="imgdec" align="center">
+					<a href="./imagenes/familiareunida.html">
+					<img src="./img/familiareunida.jpg" alt="Reunion de la familia cuando era pequeño" title="Reunion de la familia cuando era pequeño"></a>
+					<input type="image" src="./img/flecha.png"  onclick="ver2();" />
+						<div id="cita2">
+							<cite>La familia reunida en vacaciones</cite>
+					</div>
+			</div>
 </p>
 <p>
-A pesar de todas las diferencias y problemas que mi familia a tenido afortunadamente no se a dejado de hablar a nadie y espero que eso continue as&#237 con un equilibrio para que no seamos una familia distante que no se hablan para nada eso es algo que simplemente no me gustar&#237a vivir nunca. En los &#250ltimos par de años las cosas est&#225n empezando a cambiar desde que una prima lamentablemente tuvo un accidente automovil&#237stico y quedo en estado vegetal la familia se uni&#243 mas aunque no fue buena la forma en la que sucedi&#243 todos dicen que es una forma en la que dios nos dice que debemos permanecer unidos como familia y dejar de lado el rencor o el odio para solo llenarnos de cosas positivas y convivir con toda la familia que para eso es familia para convivir con ella y ser felices todos.
-<br/><div class="imgdec" align="center">
-<a href="./imagenes/familia.html"><img src="./img/familia.jpg" alt="Reunion de la familia" title="Familia unida"></a>
-<cite>Viaje familiar a la playa el maviri Sinaloa</cite>
-</div>
+A pesar de todas las diferencias y problemas que mi familia a tenido afortunadamente no se a dejado de hablar a nadie y espero que eso continue as&#237; con un equilibrio para que no seamos una familia distante que no se hablan para nada eso es algo que simplemente no me gustar&#237;a vivir nunca. En los &#250;ltimos par de años las cosas est&#225;n empezando a cambiar desde que una prima lamentablemente tuvo un accidente automovil&#237;stico y quedo en estado vegetal la familia se uni&#243; mas aunque no fue buena la forma en la que sucedi&#243; todos dicen que es una forma en la que dios nos dice que debemos permanecer unidos como familia y dejar de lado el rencor o el odio para solo llenarnos de cosas positivas y convivir con toda la familia que para eso es familia para convivir con ella y ser felices todos.
+<br/>
+				<div class="imgdec" align="center">
+						<a href="./imagenes/familia.html"><img src="./img/familia.jpg" alt="Reunion de la familia" title="Familia unida"></a>
+							<input type="image" src="./img/flecha.png"  onclick="ver2();" />
+								<div id="cita2">
+							<cite>Viaje familiar a la playa el maviri Sinaloa</cite>
+					</div>		
+		</div>
 </p>
 			
 <p>
-La familia es algo que yo valoro mucho y siempre intento el convivir con esas personas con las que siempre debemos de estar en contacto en todo momento de la vida ya sea en las partes buenas y en las partes males, entender la forma de ser de cada uno de los familiares y  convivir lo mas que se pueda con ellos que son las personas en las que deberiamos de tener la seguridad de que podemos confiar en ellos y siempre estar&#225n a nuestro lado cuando lo necesitemos en un momento de depresi&#243n y en los momentos felices de nuestra vida. 
+La familia es algo que yo valoro mucho y siempre intento el convivir con esas personas con las que siempre debemos de estar en contacto en todo momento de la vida ya sea en las partes buenas y en las partes males, entender la forma de ser de cada uno de los familiares y  convivir lo mas que se pueda con ellos que son las personas en las que deberiamos de tener la seguridad de que podemos confiar en ellos y siempre estar&#225;n a nuestro lado cuando lo necesitemos en un momento de depresi&#243;n y en los momentos felices de nuestra vida. 
 </p>
 		
 
