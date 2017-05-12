@@ -71,21 +71,22 @@
 
 
              		if (res <= 3) {
-             			alert("no leiste nada del sitio");
+             			alert("tu resultado es: " + res + " no leiste nada del sitio");
              		}
              		else if (res <=6){
-             			alert("recuardas algunas cosas sobre mi");
+             			alert("tu resultado es: " + res + " recuardas algunas cosas sobre mi");
              		}
              		else if (res <=9) {
-             			alert("sabes mucho sobre mi :´)");
+             			alert("tu resultado es: " + res + " sabes mucho sobre mi :´)");
              		}
              		else if (res = 10){
-             			alert("sabes absolutamente todo sobre mi amigo")
+             			alert("tu resultado es: " + res + " sabes absolutamente todo sobre mi amigo")
              		}
+
 
 	}
 			var ocultar = 1;
-    function t() {
+    function mover() {
     	
     if(ocultar == 1) {
     N.style.top = "1400px";
@@ -96,7 +97,7 @@
     N.style.left = "300px";
     }
     if(ocultar == 3) {
-    N.style.top = "1530px";
+    N.style.top = "1565px";
     N.style.left = "250px";
     }
     if(ocultar == 4) {
@@ -116,9 +117,33 @@
 </head>
 
 <body>
+                        <div class="bar" align="center">
+                        <ul class="lista">
+                        <li class="lista2"><a href="./pag1.html" class="barra">Inicio</a></li>
+                        <li class="lista2"><a href="./pag2.html" class="barra">Mi infancia</a></li>
+                        <li class="lista2"><a href="./pag5.html" class="barra">Mi adolescencia</a> </li>
+                        <li class="lista2"><a href="#" class="barra">Mi presente</a>
+                              <ul class="lista3"> 
+                                  <li class="lista3"><a href="./pag6.html" class="barra">Lo que me gusta hacer</a></li>
+                                  <li class="lista3"><a href="./pag7.html" class="barra">Mi vida Actualmente</a></li>
+                                  <li class="lista3"><a href="./pag8.html" class="barra">Algunas recomendaciones</a></li>
+                        
+                        </ul>
+                        </li>
+                        <li class="lista2"><a href="./pag4.html" class="barra">Lo que espero de mi futuro</a></li>
+                        <li class="lista2"><a href="./pag10.html" class="barra">Familia</a></li>
+                        <li class="lista2"><a href="./encuesta.html" class="barra">Encuesta</a></li>
+                        </ul> <hr/>
+          </div>
+
+
+
+
+
 <div id="encuesta">
 <h1>Encuesta</h1>
-<h2>esta encuesta es con el prop&#243;sito de saber que tanto aprendi&#243; el lector sobre el autor del sitio web</h2>
+<h2>Esta encuesta es con el prop&#243;sito de saber que tanto aprendi&#243; el lector sobre el autor del sitio web</h2>
+<p class="margen2">Seleccione la respuesta que considere sea la correcta:</p>
 <ol>
 <li><p>&#191;Cu&#225;l es mi lugar de nacimiento?</p>
 <input type="radio" name="uno" value="sin">Los Mochis,Sinaloa<br>
@@ -140,7 +165,7 @@
 </li>
 
 <li>
-<p>&#191;cu&#225;l fue la materia de la cual reprob&#233; un parcial por primera vez?</p>
+<p>&#191;Cu&#225;l fue la materia de la cual reprob&#233; un parcial por primera vez?</p>
 <input type="radio" name="cuatro" value="matematicas">matematicas<br>
 <input type="radio" name="cuatro" value="geografia">geograf&#237;a<br>
 <input type="radio" name="cuatro" value="ingles">ingles<br>
@@ -148,7 +173,7 @@
 </li>
 
 <li>
-<p>&#191;qu&#233; videojuego me hizo cambiar de idea para elegir que quer&#237;a estudiar?</p>
+<p>&#191;Qu&#233; videojuego me hizo cambiar de idea para elegir que quer&#237;a estudiar?</p>
 <input type="radio" name="cinco" value="tibia">tibia<br>
 <input type="radio" name="cinco" value="dofus">dofus<br>
 <input type="radio" name="cinco" value="mortal">mortal kombat<br>
@@ -156,7 +181,7 @@
 </li>
 
 <li>
-<p>&#191;cu&#225;l es mi pel&#237;cula favorita?</p>
+<p>&#191;Cu&#225;l es mi pel&#237;cula favorita?</p>
 <input type="radio" name="seis" value="guardianes">guardianes de la galaxia<br>
 <input type="radio" name="seis" value="xmen">x men d&#237;as del futuro pasado<br>
 <input type="radio" name="seis" value="rapido">rapido y furioso<br>
@@ -164,7 +189,7 @@
 </li>
 
 <li>
-<p>&#191;cu&#225;l es mi comida favorita?</p>
+<p>&#191;Cu&#225;l es mi comida favorita?</p>
 <input type="radio" name="siete" value="frijoles">frijoles con arroz<br>
 <input type="radio" name="siete" value="pizza">pizza<br>
 <input type="radio" name="siete" value="caviar">caviar<br>
@@ -172,7 +197,7 @@
 </li>
 
 <li>
-<p>&#191;cu&#225;l es la actividad que mas disfruto hacer?</p>
+<p>&#191;Cu&#225;l es la actividad que mas disfruto hacer?</p>
 <input type="radio" name="ocho" value="jf">jugar futbol<br>
 <input type="radio" name="ocho" value="dibujar">dibujar<br>
 <input type="radio" name="ocho" value="tejer">tejer bufandas<br>
@@ -180,24 +205,24 @@
 </li>
 
 <li>
-<p>&#191;qu&#233; es lo que mas me molesta en esta vida?</p>
+<p>&#191;Qu&#233; es lo que mas me molesta en esta vida?</p>
 <input type="radio" name="nueve" value="minecraft">minecraft<br>
 <input type="radio" name="nueve" value="donald">donald trump<br>
 <input type="radio" name="nueve" value="arañas">las ara&ntilde;as<br>
 <input type="radio" name="nueve" value="presumidas" checked>las personas presumidas<br>	
 </li>
 <li>
-<p>&#191;cu&#225;les son los pa&#237;ses que me gustar&#237;a visitar en el futuro?</p>
-<input type="radio" name="diez" value="cf">canad&#225; y francia<br>
-<input type="radio" name="diez" value="ij">inglaterra y jap&#243;n<br>
-<input type="radio" name="diez" value="jf">jap&#243;n y francia<br>
-<input type="radio" name="diez" value="bc" checked>brasil y colombia<br>	
+<p>&#191;Cu&#225;les son los pa&#237;ses que me gustar&#237;a visitar en el futuro?</p>
+<input type="radio" name="diez" value="cf">Canad&#225; y Francia<br>
+<input type="radio" name="diez" value="ij">Inglaterra y Jap&#243;n<br>
+<input type="radio" name="diez" value="jf">Jap&#243;n y Francia<br>
+<input type="radio" name="diez" value="bc" checked>Brasil y Colombia<br>	
 </li>
 
 </ol>
    <div id="N" class="ocult">
       <form>
-        <input type="button" value="reportar al autor por patetico" onmouseover="t();">
+        <input type="button" value="reportar al autor por patetico" onmouseover="mover();">
       </form>
     </div>
     <div>
