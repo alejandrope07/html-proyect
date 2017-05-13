@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>	<title>Mi presente</title>
+                    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript">
+var derecha1 = 1;
+    function derecha() {
+
+            if (derecha1 == 1) {
+                document.getElementById("panda").style.top = "100px";
+                document.getElementById("panda").style.left = "100px";
+                 }
+            else if (derecha1 == 2) {
+                document.getElementById("panda").style.top =  "100px";
+                document.getElementById("panda").style.left = "200px";
+                 }
+            else if (derecha1 == 3) {
+                document.getElementById("panda").style.top = "100px";
+                document.getElementById("panda").style.left = "270px";
+                 }
+            else if (derecha1 == 4) {
+                document.getElementById("panda").style.top = "100px";
+                document.getElementById("panda").style.left = "15px";
+                 }
+                    derecha1 = derecha1 + 1;
+                if(derecha1 == 5) {
+                derecha1 = 1;
+    }
+    }
+    izquierda1 = 1
+    function izquierda() {
+        if (izquierda1 == 1) {
+        document.getElementById("panda").style.left = "340px";
+        document.getElementById("panda").style.top = "150px";
+        }
+        else if (izquierda1 == 2) {
+        document.getElementById("panda").style.left = "370px";
+        document.getElementById("panda").style.top = "170px";
+        }
+        else if (izquierda1 == 3) {
+        document.getElementById("panda").style.left = "410px";
+        document.getElementById("panda").style.top = "200px";
+        }
+            izquierda1 = izquierda1 + 1;
+                if(izquierda1 == 4) {
+                izquierda1 = 1;
+            }
+
+    }
+
+
+
+</script>
+<link rel="stylesheet"
+ type="text/css"
+ href="./css/estilos.css">
+</head>
+<body>
+            <div class="bar">
+               <ul class="lista" >
+                   <li class="lista2"><a href="./index.html" class="barra">Inicio</a></li>
+                    <li class="lista2"><a href="./infancia.html" class="barra">Mi infancia</a></li>
+                    <li class="lista2"><a href="./adolescencia.html" class="barra">Mi Adolescencia</a></li>
+                    <li class="lista2"><a href="./presente.html" class="barra">Mi presente</a>
+                        <ul class="lista3"> 
+                           <li class="lista3"><a href="./cosasg.html" class="barra">Lo que me gusta hacer</a></li>
+                           <li class="lista3"><a href="./viactual.html" class="barra">Mi vida Actualmente</a></li>
+                           <li class="lista3"><a href="./recomendaciones.html" class="barra">Algunas recomendaciones</a></li>
+                        </ul>
+                     </li>
+                     <li class="lista2"><a href="./futuro.html" class="barra">Mi futuro</a></li>
+                     <li class="lista2"><a href="./familia.html" class="barra">Familia</a></li>
+                  </ul> 
+              </div>
+
+    <input type="button" value="derecha" onclick="derecha();" >
+    <input type="button" value="izquierda" onclick="izquierda();">
+ 
+
+    <div class="derecha2" id="panda">
+        <img src="./img/pandainicio.png" alt="panda" title="Tengo hambre" >
+
+    </div>
+        
+        <div id="bambu">
+            <img src="./img/bambu.jpg" alt="bambú" title="bambú" >
+
+    </div>
+        <div id="camino">
+            <img src="./img/camino1.png" alt="camino" title="sigue el camino" >
+
+    </div>
+        <div id="camino2">
+            <img src="./img/camino3.png" alt="camino" title="sigue el camino" >
+
+            </div>
+        <div id="camino3">
+            <img src="./img/camino1.png" alt="camino" title="sigue el camino" >
+
+    </div>
+	</body>
+</html>
