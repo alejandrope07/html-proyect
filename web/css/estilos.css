@@ -1,0 +1,324 @@
+body{background:#eaece5;
+}
+
+.bar{background:#c0ded9;
+}
+
+.bar ul ul {
+	display: none;
+	
+}
+.bar ul li:hover ul{
+	display: block;
+	position: absolute;
+	background-color:#eaece5;
+
+}
+
+
+.ocult {
+	position:absolute; 
+	left:250px; 
+	top:1565px; 
+	width:50px; 
+	height:50px;
+}
+
+#contacto{
+	background:#3b3a30;
+	padding-bottom:80px;
+	color:white;
+}
+
+.margen{
+	font-size:16px;
+	text-align: justify;
+	font-family: sans-serif;
+	background:#b2c2bf;
+	margin-left:250px;
+	margin-right:250px;
+	display:inline-block;
+	height:auto;
+	width:auto;}
+
+.margen2{
+margin-left:20px;
+margin-right:20px;}
+
+#justificar{
+text-align:justify;
+}
+.cuatro{color:#A52A2A;}
+
+.imagen{ float: right;
+    margin: 0 0 100px 100px;
+}
+
+
+
+.tres{
+color:#3b3a30;
+font-size:22px;
+text-align: justify;
+font-family: sans-serif;
+}
+
+.sadow{color:#3b3a30;
+text-shadow: 3px 2px white;
+font-style: oblique;
+}
+.shadow{color:#3b3a30;
+font-style: oblique;
+}
+
+
+
+.marg{background:#c0c0c0;
+}
+
+.marcof{
+border-style:ridge;
+border-width:10px;
+border-color:#D2691E;
+margin-left:50px;
+margin-right:90px;}
+
+.marcof2{
+border-style:ridge;
+border-width:10px;
+border-color:#D2691E;
+margin-left:50px;
+margin-right:20px;}
+
+
+
+.lista{
+width: 900px;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden; 
+}
+
+.lista2{
+width:14.2857143%;
+display:block;
+text-align:center;
+margin: 0px;
+float: left;
+}
+
+.lista3{
+width:30%;
+display:block;
+font: normal;
+text-align:center;
+margin: 0px;
+text-decoration:none;
+}
+
+.barra{
+display: block;
+width: 100%;
+height: 30px;
+padding: 10px;
+color:#3b3a30;
+text-decoration:none;
+background-color:#c0ded9;
+text-align: center;
+}
+.barra1{
+display: block;
+width:20%;
+height: 20px;
+padding: 10px;
+color:#3b3a30;
+text-decoration:none;
+background-color:#c0ded9;
+text-align: center;
+}
+.barra2{
+display: block;
+width:100%;
+height: 20px;
+padding: 10px;
+color:#3b3a30;
+text-decoration:none;
+background-color:#c0ded9;
+text-align: center;
+}
+.barra:hover{
+background-color:#FFFFFF;
+color:#00008B;}
+.barra1:hover{
+background-color:#FFFFFF;
+color:#00008B;}
+.barra2:hover{
+background-color:#FFFFFF;
+color:#00008B;}
+.margen2{
+margin-left:20px;
+margin-right:20px;}
+
+.imgdec{
+position:relative;
+display:block;
+height:auto;
+width:auto;
+}
+
+.imgdec cite{
+background:#111;
+filter:alpha(opacity =56);
+opacity:.55;
+color:#fff;
+position:relative;
+bottom:0;
+left:auto;
+width:auto;
+padding:3px;
+border-top: 1px solid #999;
+}
+
+
+#espacio {
+    margin:0px 0px 100px 0px;
+}
+#galeria{
+background:#eaece5;  
+}
+
+.galeria1{
+background-color:#800000  ; 
+color:white;
+display: block;
+}
+.galeria2:hover{
+background-color:#FFFFFF;
+color:#00008B;}
+.galeria2{
+background-color:#800000  ; 
+color:white;
+display: block;
+width:20%;
+height: 20px;
+padding: 10px;
+text-decoration:none;
+text-align: center;
+}
+
+#encuesta{
+font-size:16px;
+text-align: justify;
+font-family: sans-serif;
+background:white;
+margin-left:250px;
+margin-right:250px;
+position:relative;
+display:inline-block;
+height:auto;
+width:auto;}
+
+#encuesta h1{
+background:#c94c4c;
+color:#eaece5;
+padding: 10px 30px 10px 30px;
+}
+#encuesta h2{
+margin-left:20px;
+margin-right:20px;
+}
+
+#encuesta ol{
+margin-left:20px;
+margin-right:20px;}
+
+#boton{
+margin:30px;
+}
+
+#citas{
+display:none;
+position: relative;
+}
+
+#cita2{
+display:none;
+position: relative;
+}
+
+#cita3{
+display:none;
+position: relative;
+}
+
+#cita4{
+display:none;
+position: relative;
+}
+
+#cita5{
+display:none;
+position: relative;
+}
+
+#cita6{
+display:none;
+position: relative;
+}
+
+#cita7{
+display:none;
+position: relative;
+}
+#contenido{
+display:none;
+position: relative;
+}
+#contenido1{
+display:none;
+position: relative;
+}
+#contenido2{
+display:none;
+position: relative;
+text-align: justify;
+}
+#contenido3{
+display:none;
+position: relative;
+text-align: justify;
+
+}
+#contenido4{
+display:none;
+position: relative;
+}
+.derecha2{
+	position: relative; 
+	left:15px; 
+	top:20px; 
+
+}
+#bambu{
+	position: absolute; 
+	left:1200px; 
+	top:550px; 
+
+}
+#camino{
+	position: absolute; 
+	left:15px; 
+	top:250px; 
+}
+#camino2{
+	position: absolute; 
+	left:269px; 
+	top:227px; 
+}
+#camino3{
+	position: absolute; 
+	left:427px; 
+	top:360px; 
+}
+
